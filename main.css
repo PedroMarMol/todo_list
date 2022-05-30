@@ -73,3 +73,23 @@ body {
     color: #e57373;
     cursor: pointer;
 }
+
+.sidebar-form .form-control {
+    margin: 10px 0;
+}
+
+.sidebar-form input {
+    border: 0;
+    width: 100%;
+    padding: 3px 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.sidebar-form input:focus {
+    outline: none;
+}
+
+.sidebar-form button {
+    width: 100%;
+}
