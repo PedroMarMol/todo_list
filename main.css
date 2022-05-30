@@ -23,3 +23,53 @@ body {
     padding: 32px;
     height: 100vh;
 }
+
+.app {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    display: inline-block;
+    padding: 12.5px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.header {
+    color: var(--primary-color);
+    padding: 1.6rem;
+    position: sticky;
+    top: 0;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.currently-viewing {
+    font-size: 1.5rem;
+}
+
+.currently-viewing > span {
+    font-weight: bold;
+    color: #e57373;
+    cursor: pointer;
+}
